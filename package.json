@@ -1,0 +1,39 @@
+{
+  "name": "pitch-deck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitchedmob/Pitch-Deck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glitchedmob/Pitch-Deck/issues"
+  },
+  "homepage": "https://github.com/glitchedmob/Pitch-Deck#readme",
+  "dependencies": {
+    "reveal": "0.0.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-loader": "^1.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.4",
+    "pug-html-loader": "^1.1.5",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1"
+  }
+}
