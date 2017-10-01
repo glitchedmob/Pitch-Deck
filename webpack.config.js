@@ -18,6 +18,30 @@ module.exports = {
   },
 	module: {
 		loaders: [
+			{
+				test: /\.eot(\?\S*)?$/,
+				loader: 'url-loader?limit=100000&mimetype=application/vnd.ms-fontobject'
+			},
+			{
+				test: /\.woff2(\?\S*)?$/,
+				loader: 'url-loader?limit=100000&mimetype=application/font-woff2'
+			},
+			{
+				test: /\.woff(\?\S*)?$/,
+				loader: 'url-loader?limit=100000&mimetype=application/font-woff'
+			},
+			{
+				test: /\.ttf(\?\S*)?$/,
+				loader: 'url-loader?limit=100000&mimetype=application/font-ttf'
+			},
+			{
+				test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+				loader: "file-loader"
+			},
+			{
+				test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+				loader: "url-loader?limit=10000&mimetype=image/svg+xml"
+			},
 			{ test: /\.pug?/,
 				use: [
 					{ 

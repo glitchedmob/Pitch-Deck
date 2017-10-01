@@ -79,7 +79,12 @@ module.exports = __webpack_require__(4);
 "use strict";
 
 var Reveal = __webpack_require__(2);
-Reveal.initialize();
+Reveal.initialize({
+    transition: 'linear',
+    slideNumber: true,
+    history: true,
+    mouseWheel: true
+});
 
 
 /***/ }),
