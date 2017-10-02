@@ -81,9 +81,10 @@ module.exports = __webpack_require__(4);
 var Reveal = __webpack_require__(2);
 Reveal.initialize({
     transition: 'linear',
-    slideNumber: true,
+    slideNumber: 'c/t',
     history: true,
-    mouseWheel: true
+    mouseWheel: true,
+    hideAddressBar: true
 });
 
 
