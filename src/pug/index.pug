@@ -10,7 +10,24 @@ html(lang="en")
 
 	.reveal
 		.slides
-			include slides/slide1.pug
-			include slides/slide2.pug
+			section
+				include slides/coverSlide
+			section
+				include slides/overview
+			section
+				include slides/story
+			section
+				include slides/experience
+			section
+				include slides/projects
+			section
+				include slides/skills
+			section
+				include slides/endorsements
+			section
+				include slides/firstDays
+			section
+				include slides/contact
+
 
 	script(src="js/deck.js")
