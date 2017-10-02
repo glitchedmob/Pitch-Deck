@@ -1,0 +1,17 @@
+@import "~susy/sass/susy-prefix";
+
+$susy: (
+	columns: susy-repeat(12),
+	gutters: 1em
+);
+
+.row {
+	display: flex;
+}
+
+@for $i from 1 through 12 {
+	.col-#{$i} {
+		flex: 1 1 susy-span($i);
+		padding: susy-gutter($i);
+	}
+}

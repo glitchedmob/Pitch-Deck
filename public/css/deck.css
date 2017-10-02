@@ -1575,6 +1575,57 @@ body {
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
 
+.row {
+  display: flex; }
+
+.col-1 {
+  flex: 1 1 calc(((100% - 11em) / 12 * 1));
+  padding: 1em; }
+
+.col-2 {
+  flex: 1 1 calc(1em + ((100% - 11em) / 12 * 2));
+  padding: 1em; }
+
+.col-3 {
+  flex: 1 1 calc(2em + ((100% - 11em) / 12 * 3));
+  padding: 1em; }
+
+.col-4 {
+  flex: 1 1 calc(3em + ((100% - 11em) / 12 * 4));
+  padding: 1em; }
+
+.col-5 {
+  flex: 1 1 calc(4em + ((100% - 11em) / 12 * 5));
+  padding: 1em; }
+
+.col-6 {
+  flex: 1 1 calc(5em + ((100% - 11em) / 12 * 6));
+  padding: 1em; }
+
+.col-7 {
+  flex: 1 1 calc(6em + ((100% - 11em) / 12 * 7));
+  padding: 1em; }
+
+.col-8 {
+  flex: 1 1 calc(7em + ((100% - 11em) / 12 * 8));
+  padding: 1em; }
+
+.col-9 {
+  flex: 1 1 calc(8em + ((100% - 11em) / 12 * 9));
+  padding: 1em; }
+
+.col-10 {
+  flex: 1 1 calc(9em + ((100% - 11em) / 12 * 10));
+  padding: 1em; }
+
+.col-11 {
+  flex: 1 1 calc(10em + ((100% - 11em) / 12 * 11));
+  padding: 1em; }
+
+.col-12 {
+  flex: 1 1 calc(11em + (100% - 11em));
+  padding: 1em; }
+
 html * {
   color-profile: sRGB;
   rendering-intent: auto; }

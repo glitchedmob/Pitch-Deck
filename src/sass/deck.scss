@@ -1,4 +1,5 @@
 @import '~reveal/index';
+
 // @import '~reveal/theme/beige';
 // @import '~reveal/theme/blood';
 // @import '~reveal/theme/default';
@@ -8,6 +9,8 @@
 // @import '~reveal/theme/simple';
 // @import '~reveal/theme/sky';
 // @import '~reveal/theme/solarized';
+
 @import 'variables';
+@import 'grid';
 @import 'custom-theme';
-@import 'custom';
+@import 'misc';
