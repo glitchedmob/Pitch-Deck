@@ -80,6 +80,7 @@ module.exports = __webpack_require__(4);
 
 var Reveal = __webpack_require__(2);
 Reveal.initialize({
+    width: 1080,
     transition: 'linear',
     slideNumber: 'c/t',
     history: true,

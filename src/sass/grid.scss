@@ -2,16 +2,17 @@
 
 $susy: (
 	columns: susy-repeat(12),
-	gutters: 1em
+	gutters: 0.2em
 );
 
 .row {
 	display: flex;
+	align-items: center;
 }
 
 @for $i from 1 through 12 {
 	.col-#{$i} {
 		flex: 1 1 susy-span($i);
-		padding: susy-gutter($i);
+		padding: susy-gutter($i) !important;
 	}
 }

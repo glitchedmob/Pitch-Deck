@@ -1576,55 +1576,56 @@ body {
   visibility: hidden; }
 
 .row {
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .col-1 {
-  flex: 1 1 calc(((100% - 11em) / 12 * 1));
-  padding: 1em; }
+  flex: 1 1 calc(((100% - 2.2em) / 12 * 1));
+  padding: 0.2em !important; }
 
 .col-2 {
-  flex: 1 1 calc(1em + ((100% - 11em) / 12 * 2));
-  padding: 1em; }
+  flex: 1 1 calc(0.2em + ((100% - 2.2em) / 12 * 2));
+  padding: 0.2em !important; }
 
 .col-3 {
-  flex: 1 1 calc(2em + ((100% - 11em) / 12 * 3));
-  padding: 1em; }
+  flex: 1 1 calc(0.4em + ((100% - 2.2em) / 12 * 3));
+  padding: 0.2em !important; }
 
 .col-4 {
-  flex: 1 1 calc(3em + ((100% - 11em) / 12 * 4));
-  padding: 1em; }
+  flex: 1 1 calc(0.6em + ((100% - 2.2em) / 12 * 4));
+  padding: 0.2em !important; }
 
 .col-5 {
-  flex: 1 1 calc(4em + ((100% - 11em) / 12 * 5));
-  padding: 1em; }
+  flex: 1 1 calc(0.8em + ((100% - 2.2em) / 12 * 5));
+  padding: 0.2em !important; }
 
 .col-6 {
-  flex: 1 1 calc(5em + ((100% - 11em) / 12 * 6));
-  padding: 1em; }
+  flex: 1 1 calc(1em + ((100% - 2.2em) / 12 * 6));
+  padding: 0.2em !important; }
 
 .col-7 {
-  flex: 1 1 calc(6em + ((100% - 11em) / 12 * 7));
-  padding: 1em; }
+  flex: 1 1 calc(1.2em + ((100% - 2.2em) / 12 * 7));
+  padding: 0.2em !important; }
 
 .col-8 {
-  flex: 1 1 calc(7em + ((100% - 11em) / 12 * 8));
-  padding: 1em; }
+  flex: 1 1 calc(1.4em + ((100% - 2.2em) / 12 * 8));
+  padding: 0.2em !important; }
 
 .col-9 {
-  flex: 1 1 calc(8em + ((100% - 11em) / 12 * 9));
-  padding: 1em; }
+  flex: 1 1 calc(1.6em + ((100% - 2.2em) / 12 * 9));
+  padding: 0.2em !important; }
 
 .col-10 {
-  flex: 1 1 calc(9em + ((100% - 11em) / 12 * 10));
-  padding: 1em; }
+  flex: 1 1 calc(1.8em + ((100% - 2.2em) / 12 * 10));
+  padding: 0.2em !important; }
 
 .col-11 {
-  flex: 1 1 calc(10em + ((100% - 11em) / 12 * 11));
-  padding: 1em; }
+  flex: 1 1 calc(2em + ((100% - 2.2em) / 12 * 11));
+  padding: 0.2em !important; }
 
 .col-12 {
-  flex: 1 1 calc(11em + (100% - 11em));
-  padding: 1em; }
+  flex: 1 1 calc(2.2em + (100% - 2.2em));
+  padding: 0.2em !important; }
 
 html * {
   color-profile: sRGB;
@@ -1773,7 +1774,7 @@ body {
 .reveal .slide-number {
   color: #FFF; }
 
-img#profile-img {
+.round {
   border-radius: 100%; }
 
 img#site-logo {
