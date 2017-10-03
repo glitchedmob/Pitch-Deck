@@ -1,3 +1,27 @@
 img#profile-img {
 	border-radius: 100%;
 }
+
+img#site-logo {
+	border: none;
+	box-shadow: none;
+	background: transparent;
+}
+
+#contact {
+	img {
+		height: 4.5em;
+		margin: 1rem 0;
+	}
+
+	i {
+		margin: 1rem 0;
+		font-size: 4.5em;
+		display: block;
+	}
+
+	a {
+		font-size: 1.8rem;
+		border-bottom-width: 3px;
+	}
+}

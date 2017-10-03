@@ -1682,13 +1682,19 @@ body {
   transition: all .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #26A69A;
+  color: #80CBC4;
   text-shadow: none;
-  border-color: #26A69A; }
+  border-color: #80CBC4; }
 
 .reveal .roll span:after {
   color: #fff;
   background: #1a6091; }
+
+/*********************************************
+* ICONS
+*********************************************/
+.reveal i {
+  font: normal normal normal 14px/1 FontAwesome; }
 
 /*********************************************
  * IMAGES
@@ -1769,3 +1775,21 @@ body {
 
 img#profile-img {
   border-radius: 100%; }
+
+img#site-logo {
+  border: none;
+  box-shadow: none;
+  background: transparent; }
+
+#contact img {
+  height: 4.5em;
+  margin: 1rem 0; }
+
+#contact i {
+  margin: 1rem 0;
+  font-size: 4.5em;
+  display: block; }
+
+#contact a {
+  font-size: 1.8rem;
+  border-bottom-width: 3px; }
