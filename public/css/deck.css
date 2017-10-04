@@ -1806,6 +1806,12 @@ body {
   box-shadow: none;
   background: transparent; }
 
+.reveal #first-days i {
+  font-size: 5em; }
+
+.reveal #first-days .arrow > i {
+  font-size: 3em; }
+
 .reveal #contact img {
   height: 4.5em;
   margin: 1rem 0; }
