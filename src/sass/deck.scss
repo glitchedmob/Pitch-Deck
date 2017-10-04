@@ -12,4 +12,8 @@
 @import 'variables';
 @import 'grid';
 @import 'custom-theme';
-@import 'misc';
+
+// Namespace custom misc styles
+.reveal {
+	@import 'misc';
+}

@@ -1774,23 +1774,47 @@ body {
 .reveal .slide-number {
   color: #FFF; }
 
-.round {
+.reveal img.png {
+  box-shadow: none;
+  background: transparent; }
+
+.reveal .round {
   border-radius: 100%; }
 
-img#site-logo {
+.reveal .text-left {
+  text-align: left; }
+
+.reveal .p-left {
+  padding-left: 1em; }
+
+.reveal .p-bottom {
+  padding-bottom: 1em; }
+
+.reveal .sm-img {
+  width: 80%;
+  margin: 0 auto;
+  display: block; }
+
+.reveal .text-small {
+  font-size: 0.8em; }
+
+.reveal .no-border {
+  border: none; }
+
+.reveal img#site-logo {
   border: none;
   box-shadow: none;
   background: transparent; }
 
-#contact img {
+.reveal #contact img {
   height: 4.5em;
   margin: 1rem 0; }
 
-#contact i {
+.reveal #contact i {
   margin: 1rem 0;
   font-size: 4.5em;
   display: block; }
 
-#contact a {
+.reveal #contact a {
   font-size: 1.8rem;
   border-bottom-width: 3px; }

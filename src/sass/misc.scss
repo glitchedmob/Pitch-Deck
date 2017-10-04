@@ -1,5 +1,36 @@
+img.png {
+	box-shadow: none;
+	background: transparent;
+}
+
 .round {
 	border-radius: 100%;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.p-left {
+	padding-left: 1em;
+}
+
+.p-bottom {
+	padding-bottom: 1em;
+}
+
+.sm-img {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.text-small {
+	font-size: 0.8em;
+}
+
+.no-border {
+	border: none;
 }
 
 img#site-logo {
