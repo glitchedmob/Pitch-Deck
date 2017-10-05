@@ -79,6 +79,7 @@ module.exports = __webpack_require__(4);
 "use strict";
 
 var Reveal = __webpack_require__(2);
+window.Reveal = Reveal;
 Reveal.initialize({
     width: 1080,
     transition: 'linear',
